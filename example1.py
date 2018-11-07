@@ -61,5 +61,5 @@ class ComputerVisionAlgorithm(BaseWidget):
 
 if __name__ == '__main__':
     from pyforms import start_app
-    start_app(ComputerVisionAlgorithm)
+    start_app(ComputerVisionAlgorithm, geometry = (300, 150, 300, 300))
 
