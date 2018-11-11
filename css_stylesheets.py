@@ -2,10 +2,10 @@
 '''
 Usage example of pyforms library.
 This example illustrates how to use css on your pyforms gui components.
-This scripts reads the file styles/example5.css and applies the loaded stylesheet to the GUI. To indicate pyforms where
+This scripts reads the file styles/styles.css and applies the loaded stylesheet to the GUI. To indicate pyforms where
 to read the stylesheet css file, you must create your local_settings.py file in your working directory and set
 the config variable PYFORMS_STYLESHEET
-Another way (used on this example) is to define your settings in any place (config/example5_settings.py) and load configuration
+Another way (used on this example) is to define your settings in any place (config/css_settings.py) and load configuration
 before starting the app using the conf object from the confapp module
 '''
 
@@ -29,5 +29,5 @@ class Foo(BaseWidget):
         ]
 
 if __name__ == '__main__':
-    conf += 'config.example5_settings'
+    conf += 'css_settings'
     app = pyforms.start_app(Foo, geometry=(300, 300, 300, 300))
