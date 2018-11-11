@@ -3,10 +3,10 @@
 Another example of pyforms
 This example illustrates what can be done with the submodule pyforms-terminal
 Execute the next command in a console on this working directory:
-python3 example6.py terminal_mode --help  # shows command parameters description
+python3 terminal.py terminal_mode --help  # shows command parameters description
 
 Then try:
-python3 example6.py terminal_mode --name nicola --surname tesla --address serbia --exec submit
+python3 terminal.py terminal_mode --name nicola --surname tesla --address serbia --exec submit
 
 Running the command above, the input fields name, surname and address on the GUI will be fill by the values indicated
 in the terminal. Then, method submit() on the app object will be called.
